@@ -1,0 +1,125 @@
+
+/* navbar with background*/
+.image
+{
+        background-image: url("img9.jpg");
+        width: 100%;
+        height: 340px;
+        margin: -50px 500px 0 0;
+        @media screen and (max-width: 768px) {
+            height: 100%;
+            
+         }
+}
+.container{
+
+    .spaceApply{
+        justify-content: space-between !important;
+    }
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color: white;
+                    font-weight: 100;
+                    font-size: 14px;
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}
+.seeall
+{
+    height:30px;
+    border-radius: 30px; 
+    margin:70px 10px;
+    padding: 14px 34px 36px 40px;
+    background-color: white;
+}
+.letUs{
+    color:white;
+    font-size: 30px;
+    padding-top: 40px;
+    
+.elementum{
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    opacity: 0.9;
+}
+}
+.availableProperties{
+    padding:20px 0 70px 0;
+}
+.bridge
+{
+    background-image: url("image1.jpg");
+    width: 100%;
+    height: 520px;
+    @media screen and (max-width: 768px) {
+       height: 800px;
+    }
+}
+.Donot
+{
+    color: white;
+}
+.login
+{
+    background-color: white;
+    margin:80px 0 0 30px;
+    padding: 20px 20px 40px 20px;
+}
+
+.getATestbutton
+{
+    color:white;
+    background-color:rgba(255, 0, 0, 0.632);
+    width:100%;
+    border-radius: 30px;
+    padding: 12px;
+}
+.backgroundImg
+{
+    background-image:url("img21.jpg");
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    color: white;
+ 
+}
+.heading
+{
+    margin-top: 10px;
+}
+.OurFreatures{
+   
+    color:#bb9898;
+    margin-bottom: 3px;
+}
+.names
+{
+    margin-bottom: 0px;
+}
+.borderRadius{
+   width: 10px;
+   height: 10px;
+   background-color: #aab8c1;
+   border-radius:50%;
+   margin: 6px;
+}
+.marginRightCls{
+    margin-right: 20px;
+    @media screen and (max-width: 768px) {
+        margin-right: 0;
+     }
+}
+.flexCls{
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 768px) {
+        display: block;
+        text-align: center;
+     }
+}
